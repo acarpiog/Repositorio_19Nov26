@@ -47,4 +47,8 @@ public class ReporteService {
     public void imprimirTituloReporte() {
     Console.info("=== REPORTE GENERAL DE VENTAS ===");
 }
+
+public void mostrarCantidadVentas(int cantidad) {
+    Console.info("Cantidad de ventas registradas: " + cantidad);
+}
 }
